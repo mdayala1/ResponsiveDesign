@@ -1,0 +1,24 @@
+
+.FlexWrapper {
+    background-color: indigo;
+    
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+    
+  }
+  .FlexItem {
+    background-color: #8d44c5;
+    border: 1px solid white;
+    display: flex;
+    color: antiquewhite;
+    height: 100px;
+    
+  }
+  .FlexOne{
+    flex: 1.5 0 auto;
+  }
+  .FlexTwo, .FlexThree {
+    flex: 1.0 auto;
+  }
